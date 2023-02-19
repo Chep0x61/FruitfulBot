@@ -6,7 +6,9 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
-client = commands.Bot(command_prefix='!', intents=discord.Intents().all())
+client = commands.Bot(command_prefix='!', help_command=None, intents=discord.Intents().all())
+
+client.remove_command('help')
 
 async def load_commands(client):
     for filename in os.listdir('./Commands'):
