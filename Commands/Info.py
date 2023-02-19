@@ -9,7 +9,7 @@ class Info(commands.Cog):
     @commands.command()
     async def info(self, ctx, member:discord.Member=None):
 
-        if member==None:
+        if member is None:
             member=ctx.author
 
         embed = discord.Embed(title=f":passport_control: Who is {member.display_name}? :identification_card:", colour=member.colour)
