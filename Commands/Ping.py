@@ -8,9 +8,6 @@ class Ping(commands.Cog):
 
     @commands.command()
     async def ping(self, ctx: commands.Context):
-        """
-        Pong!
-        """
         embed = discord.Embed(title="Ping Command",
                               description=f"🏓 My latency is about **{round(self.client.latency * 1000)} "
                                           f"ms**.\nFortunately, I'm still alive ! :rainbow:",
