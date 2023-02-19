@@ -8,8 +8,11 @@ class Snowball(commands.Cog):
         self.client = client
 
     @commands.command()
-    async def snowball(self, ctx):
-        await ctx.send(f"{random.choice(ctx.guild.members).mention}")
+    async def snowball(self, ctx, member:discord.Member=None):
+        if member is not None:
+            await ctx.send(f"{member.mention} was hit by a snowball ! :snowman2:")
+        else:
+            await ctx.send(f"{random.choice(ctx.guild.members).mention} was hit by a snowball ! :snowman2:")
         await ctx.message.delete()
 
 async def setup(client):
