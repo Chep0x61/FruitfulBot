@@ -10,6 +10,7 @@ class Snowball(commands.Cog):
     @commands.command()
     async def snowball(self, ctx):
         await ctx.send(f"{random.choice(ctx.guild.members).mention}")
+        await ctx.message.delete()
 
 async def setup(client):
     await client.add_cog(Snowball(client))
