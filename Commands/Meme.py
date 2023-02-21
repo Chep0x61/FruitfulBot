@@ -24,7 +24,7 @@ class Meme(commands.Cog):
         subreddit = self.reddit.subreddit(random.choice(subreddit_list))
 
         all_submis = []
-        top = subreddit.top(limit=10)
+        top = subreddit.top(limit=20)
         for submission in top:
             all_submis.append(submission)
         sub = random.choice(all_submis)
