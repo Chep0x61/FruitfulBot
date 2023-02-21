@@ -11,14 +11,10 @@ class Shuffle(commands.Cog):
     async def shuffle(self, ctx, *members):
 
         if len(members) < 4 or len(members) > 50 or len(members) % 2 != 0:
-            print('nope')
             return
-        print(members)
         arguments = list(members)
-        print(arguments)
         for i in range(3):
             random.shuffle(arguments)
-        print(arguments)
         team_size = len(arguments) // 2
         team1 = arguments[:team_size]
         team2 = arguments[team_size:]
@@ -40,7 +36,6 @@ class Shuffle(commands.Cog):
         embed.set_image(url="https://media1.giphy.com/media/l2Je30ZHMjidHGHLO/giphy.gif?cid=ecf05e47txn2mdkdx987skkyzphcng3zk4mlxmc3e04kgt56&rid=giphy.gif&ct=g")
 
         await ctx.send(embed=embed)
-        await ctx.send(f"Equipe 1 : {', '.join(team1)}\nEquipe 2 : {', '.join(team2)}")
 
 async def setup(client):
     await client.add_cog(Shuffle(client))
