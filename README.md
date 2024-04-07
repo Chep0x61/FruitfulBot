@@ -1,9 +1,11 @@
 # FruitfulBot
 
+Discover a versatile Discord Bot packed with features such as displaying memes via the Reddit API, creating teams for in-game battles, throwing snowballs at your friends, and more ! 
+
 ## Project Stack
 
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
+<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" alt="docker" width="48" height="48"/> </a>
 
 #### Don't forget to create and setup your own `.env` file based on the `.env.example` file.
 
@@ -22,4 +24,4 @@ docker-compose up -d
 | [<img src="https://github.com/Chep0x61.png?size=85" width=85><br><sub>Chep0x61</sub>](https://github.com/Chep0x61) | 
 |:------------------------------------------------------------------------------------------------------------------:|
 
-#### I hope this ReadMe was useful ! :heart:
+#### Thank you for reading this ReadMe file ! :heart:
