@@ -5,7 +5,7 @@ Discover a versatile Discord Bot packed with features such as displaying memes v
 ## Project Stack
 
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://icon.icepanel.io/Technology/svg/Docker.svg" alt="docker" width="48" height="48"/> </a>
+<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png" alt="docker" width="60" height="40"/> </a>
 
 #### Don't forget to create and setup your own `.env` file based on the `.env.example` file.
 
